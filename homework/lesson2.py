@@ -75,9 +75,11 @@ for i in range(len(text)):
             index = i + 1
     else:
         pass
+vocab = list(set(vocab))
 print(vocab)
 for i in range(len(vocab)):
     word2id[vocab[i]] = i
     id2word[i]=vocab[i]
+print(aa)
 print(word2id)
 print(id2word)
