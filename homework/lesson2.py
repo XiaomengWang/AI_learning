@@ -32,7 +32,7 @@ choice_info = """
 """
 balance = 0
 choice = input(choice_info)
-while (True):
+while (1):
     if choice == '1':
         print("当前余额为：%d" %balance)
         choice = input(choice_info)
